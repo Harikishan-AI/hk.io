@@ -2,6 +2,12 @@ h1,h2{
     text-align: center;
     color:burlywood;
 }
+h1{
+    animation-name:color-change;
+    animation-duration: 6s;
+    animation-iteration-count:infinite;
+    animation-delay: 2s;
+}    
 header{
     float:right;
 }
@@ -79,6 +85,12 @@ p{
 .t{
     color:burlywood;
 }
+@keyframes color-change{
+    30%{color:red;}
+    40%{color:green;}
+    50%{color:blue;}
+}
+
 
 
 
