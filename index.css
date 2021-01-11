@@ -7,7 +7,7 @@ h1{
     animation-duration: 6s;
     animation-iteration-count:infinite;
     animation-delay: 2s;
-}    
+}
 header{
     float:right;
 }
@@ -27,7 +27,7 @@ ul li a:hover{
     background-color:white;
 }
 body{
-    background-image: url("maxwell-nelson-vbj1mKlJBzg-unsplash.jpg");
+    background-color: black;
     height:100vh;
     background-size: cover;
     background-position: center;
@@ -93,6 +93,12 @@ p{
     30%{color:red;}
     40%{color:green;}
     50%{color:blue;}
+}
+.container{
+    float:right;
+}
+img{
+    margin:15%;
 }
 
 
