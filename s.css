@@ -1,0 +1,14 @@
+.t{
+    font-size: 18px;
+    animation-name: color-change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes color-change {
+    from{color:red;}
+    to{color:blue;}
+}
+body{
+    background-image: url("adam-chang-IWenq-4JHqo-unsplash.jpg");
+    image-resolution: 10dpi;
+}
